@@ -17,7 +17,6 @@
         width: 120px;
         text-align: right;
         font-size: 30px;
-        background-color:#213063;
     }
 
     ul.dropdownmenu > li:last-child {
@@ -54,6 +53,7 @@
         opacity: 0;
         -webkit-transition: opacity 0.3s;
         transition: opacity 0.3s;
+        background-color:#213063;
     }
 
     ul.dropdownmenu ul li {
