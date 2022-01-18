@@ -2,10 +2,10 @@
         margin: 0;
         padding: 0;
         list-style: none;
+        float: right
     }
 
     ul.dropdownmenu {
-        border: #ccc 1px solid;
         display: inline-block;
         font-family: 'Open Sans', Arial, sans-serif;
         font-size: 25px;
@@ -14,7 +14,6 @@
     ul.dropdownmenu li {
         position: relative;
         white-space: nowrap;
-        border-right: #ccc 1px solid;
         width: 120px;
         text-align: right;
         font-size: 30px;
@@ -33,7 +32,7 @@
         text-decoration: none;
         line-height: 40px;
         color: #ffec9f;
-        text-align: right;
+        text-align: left;
         padding: 20px;
     }
     ul.dropdownmenu a:hover { /* 滑鼠滑入按鈕變色*/
