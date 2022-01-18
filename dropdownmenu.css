@@ -2,7 +2,6 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        overflow:hidden;
     }
 
     ul.dropdownmenu {
@@ -22,7 +21,7 @@
     }
 
     ul.dropdownmenu > li:last-child {
-        border-right: none;
+        border-left: none;
     }
 
     ul.dropdownmenu > li {
@@ -30,20 +29,17 @@
     }
 
      ul.dropdownmenu a {
-        background-color: #fff;
         display: block;
         text-decoration: none;
         line-height: 40px;
         color: #ffec9f;
         text-align: right;
-        padding: 0px 20px;
+        padding: 20px;
     }
     ul.dropdownmenu a:hover { /* 滑鼠滑入按鈕變色*/
-        background-color: #ef5c28;
         color: #a9e2d2;
     }
     ul.dropdownmenu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
-        background-color: #ef5c28;
         color: #fff;
     }
     ul.dropdownmenu ul {
