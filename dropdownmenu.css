@@ -17,6 +17,7 @@
         width: 120px;
         text-align: right;
         font-size: 30px;
+        background-color:#213063;
     }
 
     ul.dropdownmenu > li:last-child {
@@ -36,10 +37,10 @@
         padding: 20px;
     }
     ul.dropdownmenu a:hover { /* 滑鼠滑入按鈕變色*/
-        color: #a9e2d2;
+        color: #00bcd4;
     }
     ul.dropdownmenu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
-        color: #fff;
+        color: #00bcd4;
     }
     ul.dropdownmenu ul {
         border: #ccc 1px solid;
