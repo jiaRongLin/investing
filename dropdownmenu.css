@@ -3,12 +3,12 @@
         padding: 0;
         list-style: none;
     }*/
-ul{
+    ul{
         list-style-type: none;
         margin: 0px;
         padding: 0px;
         overflow:hidden;
-      }
+    }
     ul.dropdownmenu {
         border: #ccc 1px solid;
         display: inline-block;
@@ -26,6 +26,22 @@ ul{
         width: 120px;
         text-align: center;
         font-size: 30px;
+        display: none;
+        position: relative;
+        white-space: nowrap;
+        border-right: #ccc 1px solid;
+        left: 99999px;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+    }
+    ul.dropdownmenu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: block;
+        opacity: 1;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+        left: -1px;
+        border-right: 5px;
     }
     ul.dropdownmenu > li:last-child {
         border-right: none;
