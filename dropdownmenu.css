@@ -24,7 +24,7 @@
     ul.dropdownmenu li {
         float: right;
         width: 120px;
-        text-align: center;
+        text-align: right;
         font-size: 30px;
         display: none;
         position: relative;
@@ -48,7 +48,7 @@
     }
 
     ul.dropdownmenu > li {
-        float: left; /* 只有第一層是靠左對齊*/
+        float: right; /* 只有第一層是靠左對齊*/
     }
 
     /* ul.dropdownmenu a {
