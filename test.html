@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>我要學理財</title>
+    <link href="dropdownmenu.css" rel="stylesheet" type="text/css">
+    <style>
+      body {
+        background: #FFFFFF;
+        margin: 0;
+      }
+      header{
+        background-color: #213063;
+        font-family: fantasy;
+        font-size: 20px;
+        padding: 5px;
+      }
+      tbody{
+        display: block;
+        height: 100px;
+        overflow-y: scroll;
+        width: 100%;
+        display: none;
+         /* firefox */
+        scrollbar-width: none;
+        /* ie10+ */
+        -ms-overflow-style: none;
+      }
+      /* chrome safari */
+      table tbody::-webkit-scrollbar {
+        display: none;
+      }
+      main{
+        background: #FFFFFF;
+        margin: 0;
+      }
+      a{
+        color:#ffec9f;
+        text-align: left;
+        text-decoration:none;
+      }
+      #p1{
+        float: right;
+      }
+      article{
+        height: 300px;
+        margin: 80px 20px 20px;
+        max-width: 300px;
+        font-family: cursive;
+        font-size: 20px;
+        float: left;
+        text-align: left;
+      }
+      p1{
+        color:yellow;
+      }
+      p2{
+        color:red;
+      }
+    </style>
+   <body>
+     <header>
+       <h1><B><a href="index.html">我要學理財</a></B>
+       <div id="p1">
+         <img src="5BC6D3AE-4FA7-4454-8726-23AC9A80FDB8.png" style="height: 50px;padding: 10px; margin: 0px 20px;">
+       </div>
+       <ul class="dropdownmenu">
+         <li><a href="#">botton1</a>
+           <ul>
+             <li><a href="#">A</a></li>
+             <li><a href="#">B</a></li>
+             <li><a href="#">C</a></li>
+           </ul>
+         </li>
+         <li><a href="#">botton2</a>
+            <ul>
+             <li><a href="#">A</a></li>
+             <li><a href="#">B</a></li>
+             <li><a href="#">C</a></li>
+           </ul>
+         </li>
+         <li><a href="#">botton3</a>
+           <ul>
+             <li><a href="#">A</a></li>
+             <li><a href="#">B</a></li>
+             <li><a href="#">C</a></li>
+           </ul>
+         </li>
+       </ul>
+       </h1>
+     </header>
+    <tbody>
+     <main>
+       <article>
+       <img src="3EF0BFA8-2DF9-4266-9879-0D8D3FFDDDC3.jpeg" style="height: 300px; width: 300px; margin: 0px; padding: 10px; ">
+       <p1>test0</p1> 
+       <h2><a href="index.html" style="color:blue;">繼續閱讀</a></h2>
+       </article>
+       <article>
+       <img src="3EF0BFA8-2DF9-4266-9879-0D8D3FFDDDC3.jpeg" style="height: 300px; width: 300px; margin: 0px; padding: 10px; ">
+       <p2>test1</p2> 
+       <h2><a href="index.html" style="color:purple;">繼續閱讀</a></h2>
+       </article>
+     </main>
+    </tbody>
+   </body>
+  </head>
+</html>
