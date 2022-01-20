@@ -32,7 +32,7 @@
         line-height: 40px;
         color: #ffec9f;
         text-align: left;
-        padding: 20px;
+        padding: 20px 0px;
     }
     ul.dropdownmenu a:hover { /* 滑鼠滑入按鈕變色*/
         color: #00bcd4;
