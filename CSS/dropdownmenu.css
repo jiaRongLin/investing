@@ -23,7 +23,7 @@
     }
 
     ul.dropdownmenu > li {
-        float: left; /* 只有第一層是靠左對齊*/
+        float: right; /* 只有第一層是靠右對齊*/
     }
 
      ul.dropdownmenu a {
