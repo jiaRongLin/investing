@@ -21,13 +21,11 @@
         float: right;
       }
       article{
-        height: 300px;
         margin: 80px 20px 20px;
-        max-width: 300px;
         font-family: cursive;
         font-size: 20px;
-        float: left;
-        text-align: left;
+        float: center;
+        text-align: center;
       }
       p1{
         color:#e26278;
