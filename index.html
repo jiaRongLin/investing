@@ -31,17 +31,12 @@
        </h1>
      </header>
      <main>
+       <article1>
         <div class="w3-content w3-section w3-display-container" style="margin:20px; height:600px;">
          <img class="mySlides" src="https://jiaronglin.github.io/investing/img/index/i1.png" style="width:100%;">
          <img class="mySlides" src="https://jiaronglin.github.io/investing/img/index/i2.png" style="width:100%;">
          <img class="mySlides" src="https://jiaronglin.github.io/investing/img/index/i3.png" style="width:100%;">
          <img class="mySlides" src="https://jiaronglin.github.io/investing/img/index/i4.png" style="width:100%;">
-          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-           <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-           <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-           <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-           <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-          </div>
         </div>
          <script> 
           var myIndex = 0;
@@ -57,34 +52,10 @@
           if (myIndex > x.length) {myIndex = 1}    
           x[myIndex-1].style.display = "block";  
           setTimeout(carousel, 5000); // Change image every 5 seconds
-            
-          var slideIndex = 1;
-          showDivs(slideIndex);
-
-          function plusDivs(n) {
-          showDivs(slideIndex += n);
-          }
-
-          function currentDiv(n) {
-          showDivs(slideIndex = n);
-          }
-
-          function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" w3-white", "");
-          }
-          x[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " w3-white";
+         
           }
         </script>
+       </article1>
      </main>
    </body>
   </head>
