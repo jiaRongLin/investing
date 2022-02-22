@@ -1,32 +1,29 @@
- ul { /* 取消ul預設的內縮及樣式 */
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        float: right
-    }
-
-    ul.dropdownmenu {
-        display: inline-block;
-        font-family: monospace;
-    }
-
-    ul.dropdownmenu li {
-        position: relative;
-        white-space: nowrap;
-        width: 120px;
-        font-size: 30px;
-        padding: 1.5px 2px;
-    }
-
-    ul.dropdownmenu > li:last-child {
-        border-left: none;
-    }
+ul { /* 取消ul預設的內縮及樣式 */
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+    float: right
+   }
+ul.dropdownmenu {
+   display: inline-block;
+   font-family: monospace;
+   }
+ul.dropdownmenu li {
+   position: relative;
+   white-space: nowrap;
+   width: 120px;
+   font-size: 30px;
+   padding: 1.5px 2px;
+   }
+ul.dropdownmenu > li:last-child {
+   border-left: none;
+   }
 
     ul.dropdownmenu > li {
         float: right; /* 只有第一層是靠右對齊*/
     }
 
-     ul.dropdownmenu a {
+   #ul.dropdownmenu a {
         display: block ;
         text-decoration: none;
         line-height: 40px;
@@ -35,10 +32,10 @@
         padding: 20px 0px;
      }
      
-    ul.dropdownmenu a:hover { /* 滑鼠滑入按鈕變色*/
+   #ul.dropdownmenu a:hover { /* 滑鼠滑入按鈕變色*/
         color: #00bcd4; 
     }
-    ul.dropdownmenu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+   #ul.dropdownmenu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
         color: #00bcd4;
     }
    
