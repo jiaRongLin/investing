@@ -27,33 +27,21 @@
     }
 
      ul.dropdownmenu a {
-        display: block;
+        display: block !important;
         text-decoration: none;
         line-height: 40px;
-        color: #ffec9f;
+        color: #ffec9f !important;
         text-align: left;
         padding: 20px 0px;
      }
-     ul.dropdownmenu a1 {
-        display: block;
-        text-decoration: none;
-        line-height: 40px;
-        color: #ffec9f;
-        text-align: left;
-        padding: 20px 0px;
-    }
+     
     ul.dropdownmenu a:hover { /* 滑鼠滑入按鈕變色*/
-        color: #00bcd4;
+        color: #00bcd4 !important ;
     }
     ul.dropdownmenu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
-        color: #00bcd4;
+        color: #00bcd4 !important ;
     }
-    u1.dropdownmenu a1:hover { /* 滑鼠滑入按鈕變色*/
-        color: #00bcd4;
-    }
-    ul.dropdownmenu li:hover > a1 { /* 滑鼠移入次選單上層按鈕保持變色*/
-        color: #00bcd4;
-    }
+   
     ul.dropdownmenu ul {
         border: #ccc 1px solid;
         position: absolute;
