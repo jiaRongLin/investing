@@ -13,15 +13,11 @@
         margin: 0;
       }
       a{
-        color:#ffec9f;
-        text-align: left;
-        text-decoration:none;
+        color:#ffec9f !important;
+        text-align: left ;
+        text-decoration:none ;
       }
-      a1{
-        color:#ffec9f;
-        text-align: left;
-        text-decoration:none;
-      }
+      
       #p1{
         float: right;
       }
